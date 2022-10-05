@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(245, 247, 255, 0.858);
+    background-color: rgba(218, 226, 255, 0.81);
 }
 
 .menu {
@@ -28,7 +28,7 @@ body {
 .products {
     display: grid;
     justify-content: center;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px;
 }
 
 .product {
@@ -37,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .product img {
@@ -59,4 +60,27 @@ body {
 
 .homepagetext-2 {
     font-size: 20px;
+}
+
+.product-in-text,
+.product-in-lower {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.product-in-lower {
+    margin-bottom: 20px;
+}
+
+.btn-toevoegen a {
+    text-decoration: none;
+}
+
+.btn-toevoegen a h4 {
+    margin: 0;
+    background-color: #2c5ef4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
 }
