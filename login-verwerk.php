@@ -48,7 +48,7 @@ if (isset($_POST['uname']) && isset($_POST['wachtwoord'])) {
 
                 $_SESSION['email'] = $row['email'];
 
-                $_SESSION['id'] = $row['id'];
+                $_SESSION['wachtwoord'] = $row['id'];
 
                 header("Location: index.php");
 
@@ -68,7 +68,7 @@ if (isset($_POST['uname']) && isset($_POST['wachtwoord'])) {
     }
 } else {
 
-    header("Location: login.php");
+    header("Location: gelukt.php");
 
     exit();
 }
