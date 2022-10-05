@@ -1,0 +1,17 @@
+  @media only screen and (max-width: 1280px) {
+    .products {
+        grid-template-columns: 300px 300px 300px;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .products {
+        grid-template-columns: 300px 300px;
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .products {
+        grid-template-columns: 300px;
+    }
+  }
