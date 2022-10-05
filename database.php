@@ -1,6 +1,6 @@
 <?php
 
-// Database configuratie!
+// Database configuratie
 $host  = "localhost";
 $dbuser = "root";
 $dbpass = "";
