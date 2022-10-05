@@ -4,7 +4,7 @@
 
 <head>
 
-    <title>LOGIN!</title>
+    <title>LOGIN</title>
 
     <link rel="stylesheet" type="text/css" href="login.css">
 
